@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28306.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3DCF1E7A-7458-4DD8-B13A-35CB85822899}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A6AF6EA4-0704-4B66-9302-6F39DF8D99DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{E53E7440-C67E-4240-8AB8-AD1CBF72CA52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainTest", "DomainTest\DomainTest.csproj", "{249C82D1-F313-4177-A346-0CE69EC01F92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E53E7440-C67E-4240-8AB8-AD1CBF72CA52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E53E7440-C67E-4240-8AB8-AD1CBF72CA52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E53E7440-C67E-4240-8AB8-AD1CBF72CA52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E53E7440-C67E-4240-8AB8-AD1CBF72CA52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{249C82D1-F313-4177-A346-0CE69EC01F92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{249C82D1-F313-4177-A346-0CE69EC01F92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{249C82D1-F313-4177-A346-0CE69EC01F92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{249C82D1-F313-4177-A346-0CE69EC01F92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E53E7440-C67E-4240-8AB8-AD1CBF72CA52} = {3DCF1E7A-7458-4DD8-B13A-35CB85822899}
+		{249C82D1-F313-4177-A346-0CE69EC01F92} = {A6AF6EA4-0704-4B66-9302-6F39DF8D99DA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7073690-05F6-40F6-B62C-985AEEFCFDC2}
+	EndGlobalSection
+EndGlobal
