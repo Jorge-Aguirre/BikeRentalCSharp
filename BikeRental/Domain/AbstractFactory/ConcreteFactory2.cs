@@ -1,4 +1,4 @@
-﻿namespace Domain
+﻿namespace Domain.AbstractFactory
 {
     public class ConcreteFactory2 : IAbstractFactory
     {

@@ -1,6 +1,4 @@
-﻿using AbstractFactory;
-
-namespace ConsoleApp
+﻿namespace FactoryMethod
 {
     class Program
     {

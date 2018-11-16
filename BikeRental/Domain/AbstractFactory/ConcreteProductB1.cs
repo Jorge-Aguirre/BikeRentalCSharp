@@ -1,4 +1,4 @@
-﻿namespace Domain
+﻿namespace Domain.AbstractFactory
 {
     internal class ConcreteProductB1 : IAbstractProductB
     {
